@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Cerebri;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Cerebri";
+  src: local("Cerebri"),
+    url(./assets/fonts/CerebriSansPro-Regular.otf) format("otf");
+}

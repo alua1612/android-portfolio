@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  z-index: 15;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.padding-block {
+  padding: 35px 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  line-height: 1rem;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.logo-img {
+  display: block;
+  width: 27px;
+  height: auto;
+}
+
+.list {
+  display: flex;
+}
+
+.list li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.list li {
+  transition: all 0.4s ease-in-out;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.24rem;
+  z-index: 1;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
