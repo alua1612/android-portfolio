@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Home.scss";
-import Header from "../components/header";
 import { ReactComponent as Logo } from '../assets/images/name.svg';
 import facebook from '../assets/images/facebook.png';
 import linkedin from '../assets/images/linkedin.png';
@@ -12,7 +11,6 @@ class Home extends Component {
   render() {
     return (
       <div className="Home container">
-        <Header></Header>
         <hr className="line"></hr>
         <div className="greeting">
           <span>Здравствуйте, я внештатный фронтенд-разработчик в Бордо.</span>
